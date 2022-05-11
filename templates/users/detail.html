@@ -3,7 +3,7 @@
 {% block content %}
 
 <div id="warbler-hero" class="full-width">
-  <img src="/static/images/warbler-hero.jpg" alt="Warbler Hero">
+  <img src="{{user.header_image_url}}" alt="Header Image for {{user.username}}" id="user-header-image">
 </div>
 <img src="{{ user.image_url }}" alt="Image for {{ user.username }}" id="profile-avatar">
 <div class="row full-width">
