@@ -73,6 +73,15 @@ nav form.navbar-form {
   position: relative;
 }
 
+#logout-button {
+  color: #66757f;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+
 #search.form-control {
   border-radius: 20px;
   margin-bottom: 0;
